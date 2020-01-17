@@ -163,6 +163,6 @@ class SystemInfo(InstanceModule):
         """Release code name
 
         >>> host.system_info.codename
-        'wheezy'
+        'buster'
         """
         return self.sysinfo["codename"]
